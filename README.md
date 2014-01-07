@@ -21,10 +21,10 @@ All relative paths are meant to be relative to the play application root.
 </pre>
 3. Configure database in `conf/application.conf` e.g.:
 <pre>
-db.driver=org.postgresql.Driver
-db.url=jdbc:postgresql://localhost:5432/example-db
-db.user=example-user
-db.pass=secret
+> db.driver=org.postgresql.Driver
+> db.url=jdbc:postgresql://localhost:5432/example-db
+> db.user=example-user
+> db.pass=secret
 </pre>
 
 
@@ -94,3 +94,8 @@ public class Companies extends CayController {
     }
 }
 ```
+
+# Further information
+
+- See the documentation of the module at http://localhost:9000/@documentation (you need to have a runnnig play app with the module installed)
+- Example app at github: http://github.com/mackoy/play12cay-example
