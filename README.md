@@ -14,11 +14,11 @@ All relative paths are meant to be relative to the play application root.
 
 1.  Create play app with `play new <name of app>`
 2.  Edit `conf/dependencies.yml` to require play12cay -> play12cay e.g.:
-```
-require:
-    - play
-    - play12cay -> play12cay 0.1
-```
+<pre>
+> require:
+>     - play
+>     - play12cay -> play12cay 0.3
+</pre>
 3. Configure database in `conf/application.conf` e.g.:
 <pre>
 db.driver=org.postgresql.Driver
